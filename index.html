@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robótica espacial</title>
+  <meta name="description" content="Exploración espacial y robótica avanzada" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand-mark"><span class="brand-core"></span></span>
+        <span class="brand-text">ESPACIAL</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#perseverance">Robótica</a>
+        <a href="#conclusion">Proyecto</a>
+        <a href="#perseverance">Perseverance</a>
+        <a href="#dextre">Dextre</a>
+        <a href="#conclusion">Conclusión</a>
+        <a href="#contacto">Contacto</a>
+        <button id="btn-tema" class="btn-tema" type="button">🌙 Modo Oscuro</button>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-space">
+      <div class="container hero-grid reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Exploración espacial · Robótica avanzada</p>
+          <h1>Los avances tecnológicos en robótica para explorar el universo</h1>
+          <p class="hero-text">
+            Cómo los robots, la inteligencia artificial y los sistemas autónomos nos permiten investigar lugares donde los seres humanos todavía no pueden llegar.
+          </p>
+          <div class="hero-actions">
+            <a href="#perseverance" class="btn btn-primary">Explorar los avances</a>
+            <button class="btn btn-secondary" type="button" data-scroll-target="#intro">Ver más</button>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Ilustración de un rover robótico en Marte">
+          <div class="stars"></div>
+          <div class="stars stars-2"></div>
+          <div class="planet-glow"></div>
+          <div class="planet-surface"></div>
+          <div class="rover">
+            <div class="rover-body"></div>
+            <div class="rover-solar"></div>
+            <div class="wheel wheel-left"></div>
+            <div class="wheel wheel-right"></div>
+            <div class="wheel wheel-3"></div>
+            <div class="wheel wheel-4"></div>
+            <div class="rover-arm"></div>
+            <div class="rover-head"></div>
+          </div>
+          <div class="signal signal-one"></div>
+          <div class="signal signal-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="intro section-shell">
+      <div class="container reveal">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Introducción</p>
+          <h2>La robótica como puerta de entrada a lo desconocido</h2>
+        </div>
+
+        <div class="intro-layout">
+          <div class="intro-copy">
+            <p>
+              Los avances tecnológicos relacionados con la robótica en la exploración espacial fueron fundamentales para conocer mejor el universo y explorar lugares a los que los seres humanos no pueden llegar fácilmente. Gracias al desarrollo de robots, sondas y vehículos autónomos, fue posible investigar planetas, lunas y otros cuerpos del sistema solar sin poner directamente en riesgo la vida de los astronautas. Además, los robots pueden trabajar durante largos períodos en ambientes extremadamente fríos, calientes o con altos niveles de radiación.
+            </p>
+          </div>
+
+          <div class="intro-features" aria-label="Indicadores de la robótica espacial">
+            <div class="mini-stat">
+              <span class="mini-icon">◎</span>
+              <p>Exploración sin riesgo humano directo</p>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-icon">✦</span>
+              <p>Trabajo en ambientes extremos</p>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-icon">⏱</span>
+              <p>Operación durante largos períodos</p>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-icon">◌</span>
+              <p>Investigación de lugares inaccesibles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="perseverance" class="section-shell">
+      <div class="container reveal">
+        <div class="section-heading center">
+          <p class="eyebrow">Avances clave</p>
+          <h2>Principales avances de la robótica espacial</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="horizontal-card reveal">
+            <div class="card-visual card-visual--perseverance">
+              <img src="img/perseverance.jpg" alt="Rover Perseverance explorando Marte" loading="lazy" />
+              <span>Perseverance</span>
+            </div>
+            <div class="card-body">
+              <div class="card-label">CARD 01</div>
+              <h3>Perseverance: explorando Marte</h3>
+              <p>
+                Perseverance es un rover de la NASA que llegó a Marte en febrero de 2021. Tiene seis ruedas, cámaras, sensores y un brazo robótico de aproximadamente 2,1 metros de largo.
+              </p>
+              <button class="card-action" type="button" data-modal="perseverance">Ver detalles</button>
+            </div>
+          </article>
+
+          <article class="horizontal-card reveal">
+            <div class="card-visual card-visual--canadarm">
+              <img src="img/canadarm2.jpg" alt="Brazo robótico Canadarm2 de la estación espacial" loading="lazy" />
+              <span>Canadarm2</span>
+            </div>
+            <div class="card-body">
+              <div class="card-label">CARD 02</div>
+              <h3>Canadarm2: el brazo robótico de la ISS</h3>
+              <p>
+                El brazo robótico Canadarm2 está instalado en la Estación Espacial Internacional y permite mover equipos, ayudar en tareas de mantenimiento y capturar naves de carga.
+              </p>
+              <button class="card-action" type="button" data-modal="canadarm2">Ver detalles</button>
+            </div>
+          </article>
+
+          <article class="horizontal-card reveal">
+            <div class="card-visual card-visual--dextre">
+              <img src="img/dextre.jpg" alt="Robot Dextre realizando mantenimiento espacial" loading="lazy" />
+              <span>Dextre</span>
+            </div>
+            <div class="card-body">
+              <div class="card-label">CARD 03</div>
+              <h3>Dextre: precisión robótica en el espacio</h3>
+              <p>
+                Dextre es un robot diseñado para realizar tareas más precisas en la Estación Espacial Internacional, reduciendo la necesidad de caminatas espaciales.
+              </p>
+              <button class="card-action" type="button" data-modal="dextre">Ver detalles</button>
+            </div>
+          </article>
+
+          <article class="horizontal-card reveal">
+            <div class="card-visual card-visual--sonda">
+              <img src="img/sondas.jpg" alt="Sonda espacial explorando el cosmos" loading="lazy" />
+              <span>Sondas</span>
+            </div>
+            <div class="card-body">
+              <div class="card-label">CARD 04</div>
+              <h3>Sondas espaciales robóticas</h3>
+              <p>
+                Las sondas espaciales robóticas permiten estudiar lugares extremadamente alejados de la Tierra y enviar información científica durante años.
+              </p>
+              <button class="card-action" type="button" data-modal="sondas">Ver detalles</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inteligencia-artificial" class="section-shell ai-panel">
+      <div class="container reveal">
+        <p class="eyebrow">Inteligencia artificial</p>
+        <div class="ai-card">
+          <div class="ai-card-copy">
+            <h3>IA y autonomía robótica en el espacio</h3>
+            <p>
+              La inteligencia artificial permite que los robots evalúen su entorno, tomen decisiones y respondan ante circunstancias cambiantes sin depender siempre de instrucciones terrestres.
+            </p>
+            <ul class="feature-list">
+              <li>Procesamiento de datos en tiempo real.</li>
+              <li>Optimización de rutas y maniobras.</li>
+              <li>Autonomía para maniobras complejas.</li>
+              <li>Análisis de imágenes y señales científicas.</li>
+            </ul>
+          </div>
+
+          <div class="ai-visual" aria-label="Proceso de inteligencia artificial">
+            <div class="process-block">Datos</div>
+            <div class="process-arrow">→</div>
+            <div class="process-block">Análisis</div>
+            <div class="process-arrow">→</div>
+            <div class="process-block">Decisión</div>
+            <div class="process-arrow">→</div>
+            <div class="process-block">Acción</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="canadarm2" class="section-shell">
+      <div class="container reveal feature-detail">
+        <div class="feature-image feature-image--rover">
+          <img src="img/manipulation.jpg" alt="Robot manipulando carga en un entorno espacial" loading="lazy" />
+          <span>Manipulación espacial</span>
+        </div>
+        <div class="feature-copy">
+          <p class="eyebrow">Manipulación</p>
+          <h2>Robots con precisión, resistencia y autonomía</h2>
+          <p>
+            Los sistemas robóticos espaciales se diseñan para soportar condiciones extremas mientras realizan tareas altamente complejas, como mantenimiento, recolección y análisis científico.
+          </p>
+          <div class="feature-pills">
+            <div>Precisión</div>
+            <div>Autonomía</div>
+            <div>Resistencia</div>
+            <div>Telemetría</div>
+          </div>
+
+          <div class="delay-box">
+            <h3>Flujo de operación</h3>
+            <div class="delay-diagram">
+              <span>Sensor</span>
+              <span class="signal-arrow">→</span>
+              <span>Decisión</span>
+              <span class="signal-arrow">→</span>
+              <span>Acción</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dextre" class="section-shell">
+      <div class="container reveal dextre-wrap">
+        <div class="dextre-copy">
+          <p class="eyebrow">Mantenimiento</p>
+          <h2>Robots que reemplazan tareas humanas difíciles</h2>
+          <p>
+            En la órbita, los robots asumen labores de mantenimiento y reparación que de otra manera requerirían riesgos adicionales para los astronautas. Su diseño incluye brazos articulados, sensores de alta precisión y software para control orientado a tareas.
+          </p>
+          <div class="callout">
+            <h3>Objetivo principal</h3>
+            <p>Reducir riesgos, aumentar la eficiencia y extender la vida útil de la infraestructura espacial.</p>
+          </div>
+        </div>
+
+        <div class="robot-diagram">
+          <div class="dextre-robot" aria-label="Diagrama de un robot espacial">
+            <div class="robot-body"></div>
+            <div class="arm-left"></div>
+            <div class="arm-right"></div>
+          </div>
+          <div class="diagram-tags">
+            <span>Manipulación</span>
+            <span>Reparación</span>
+            <span>Precisión</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-shell">
+      <div class="container reveal">
+        <div class="section-heading center">
+          <p class="eyebrow">Comparación</p>
+          <h2>Tipos de sistemas robóticos espaciales</h2>
+        </div>
+        <div class="comparison-table-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Sistema</th>
+                <th>Función</th>
+                <th>Ambiente</th>
+                <th>Ventaja</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Rover</td>
+                <td>Exploración</td>
+                <td>Superficie planetaria</td>
+                <td>Movilidad y observación</td>
+              </tr>
+              <tr>
+                <td>Canadarm2</td>
+                <td>Manipulación</td>
+                <td>Orbita</td>
+                <td>Precisión y alcance</td>
+              </tr>
+              <tr>
+                <td>Dextre</td>
+                <td>Mantenimiento</td>
+                <td>Exterior de estación</td>
+                <td>Reparaciones complejas</td>
+              </tr>
+              <tr>
+                <td>Sonda</td>
+                <td>Investigación remota</td>
+                <td>Espacio profundo</td>
+                <td>Colecta datos a gran distancia</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="conclusion" class="section-shell conclusion-wrap">
+      <div class="container reveal">
+        <div class="conclusion-box">
+          <p class="eyebrow">Conclusión</p>
+          <h2>La robótica espacial abre nuevos horizontes</h2>
+          <p>
+            La robótica en la exploración espacial nos permite ir mucho más lejos de lo que la humanidad podría lograr sola. Cada misión aporta datos, experiencia y tecnología que impulsan nuevas investigaciones, mejoras en ingeniería y un mayor entendimiento del cosmos.
+          </p>
+          <blockquote>“La ciencia avanza cuando la tecnología nos permite llegar allí donde antes no podíamos ir.”</blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h3>Robótica espacial</h3>
+        <p>© 2026 Todos los derechos reservados</p>
+        <p>Teléfono: +54 11265444906</p>
+        <p>Email: neulautaroramon@colegiomanoamiga.edu.ar</p>
+        <p>Pilar, Buenos Aires, Argentina</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Cerrar">×</button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
